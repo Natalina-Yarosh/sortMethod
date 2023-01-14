@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# https://natalina-yarosh.github.io/sortMethod/
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
