@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/sortMethod/static/css/main.278d568e.css",
+    "main.js": "/sortMethod/static/js/main.c64ccff0.js",
+    "index.html": "/sortMethod/index.html",
+    "main.278d568e.css.map": "/sortMethod/static/css/main.278d568e.css.map",
+    "main.c64ccff0.js.map": "/sortMethod/static/js/main.c64ccff0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.278d568e.css",
+    "static/js/main.c64ccff0.js"
+  ]
+}
