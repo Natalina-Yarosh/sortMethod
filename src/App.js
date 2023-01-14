@@ -30,13 +30,10 @@ function App() {
   }
 
   const sortUp = () => {
-    console.log('1');
     setPosts([...newPosts].sort((post1, post2) => post1[key] - post2[key]))
   };
 
   const sortDown = () => {
-    console.log('2');
-
     setPosts([...newPosts].sort((post1, post2) => post1[key] - post2[key]).reverse())
   };
 
