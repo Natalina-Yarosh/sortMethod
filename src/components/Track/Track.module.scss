@@ -1,0 +1,25 @@
+@import "../../styles/vars.scss";
+
+.track {
+  box-shadow: 0 0 3px $primaryColor;
+  border: 1px solid $primaryColor;
+  padding: 10px;
+
+  &Title {
+    margin-bottom: 5px;
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  &Name {
+    font-size: 17px;
+    line-height: 20px;
+    margin-bottom: 20px;
+  }
+
+  &Time {
+    font-size: 14px;
+    line-height: 16px;
+    color: $textSecondary;
+  }
+}

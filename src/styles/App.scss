@@ -1,0 +1,39 @@
+@import "./vars.scss";
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Ubuntu', sans-serif;
+  color: $text;
+}
+
+.tracks {
+  padding: 100px 0;
+
+  &Title {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  &List {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 30px;
+    row-gap: 30px;
+
+    @media (max-width: 992px) {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    
+    @media (max-width: 767px) {
+        grid-template-columns: 1fr;
+    }
+  }
+}
+
+.container {
+  max-width: $container;
+  padding: 0 15px;
+  margin: 0 auto;
+}

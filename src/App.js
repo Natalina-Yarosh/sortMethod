@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Button from './components/Button/Button';
 import TrackList from './components/TrackList';
-import './styles/App.css';
+import './styles/App.scss';
 
 function App() {
   const tracks = [

@@ -1,5 +1,5 @@
 import React from 'react';
-import classes from './Track.module.css';
+import classes from './Track.module.scss';
 
 const TrackList = (props) => {
   return (
